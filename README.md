@@ -3,8 +3,10 @@ my_christmas_tree
 A small C program that prints a Christmas tree made of stacked triangles in the terminal. The size of the tree is given as a command-line argument.
 
 Build
+sh
 gcc -Wall -Wextra -Werror -o my_christmas_tree my_christmas_tree.c
 Usage
+sh
 ./my_christmas_tree <size>
 
 size must be a positive integer. If the number of arguments is wrong or the size is lower than 1, the program prints nothing and exits with status 1.
@@ -13,7 +15,8 @@ Examples
 
 Size 1:
 
-$> ./my_christmas_tree 1
+text
+./my_christmas_tree 1
    *
   ***
  *****
@@ -22,7 +25,8 @@ $> ./my_christmas_tree 1
 
 Size 2:
 
-$> ./my_christmas_tree 2
+text
+./my_christmas_tree 2
       *
      ***
     *****
